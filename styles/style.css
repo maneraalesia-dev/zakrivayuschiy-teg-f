@@ -16,20 +16,20 @@
   min-block-size: 100dvb;
   font-variation-settings: "wght" var(--text-weight);
   font-size: 18px;
-  background-color: var(--gradient-end-color); 
+  background-color: var(--gradient-end-color);
   background-image: repeating-linear-gradient(
       to left,
-        var(--grid-line-color) 0 2px,
+      var(--grid-line-color) 0 2px,
       transparent 2px 4px
     ),
     repeating-linear-gradient(
       to top,
-        var(--grid-line-color) 0 2px,
+      var(--grid-line-color) 0 2px,
       transparent 2px 4px
     ),
     linear-gradient(
       to bottom,
-        var(--gradient-start-color) 0.01%,
+      var(--gradient-start-color) 0.01%,
       var(--gradient-end-color) 100%
     );
 
@@ -147,7 +147,8 @@
   color: var(--text-color);
   opacity: 0.5;
   text-shadow: -1px -1px 0 var(--text-outline-color),
-    1px -1px 0 var(--text-outline-color), -1px 1px 0 var(--text-outline-color),
+    1px -1px 0 var(--text-outline-color),
+    -1px 1px 0 var(--text-outline-color),
     1px 1px 0 var(--text-outline-color);
 }
 
@@ -324,7 +325,6 @@
   color: var(--text-color);
   align-items: center;
   background-color: var(--background-color);
-  border: none;
   cursor: pointer;
   outline: none;
   border: 2px solid transparent;
@@ -363,7 +363,6 @@
   inset: 0;
   width: 0;
   height: 100%;
-  display: block;
   background-color: var(--text-color);
   transition: width 0.5s ease-in-out;
 }
