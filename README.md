@@ -21,7 +21,4 @@ HTML, CSS, JavaScript
 
 Открыть `index.html` в браузере.
 
-## Ссылки
-
-- [Репозиторий на GitHub](https://github.com/maneraalesia-dev/zakrivayuschiy-teg-f)
-- [GitHub Pages](https://maneraalesia-dev.github.io/zakrivayuschiy-teg-f/)
+**Репозиторий:** https://github.com/maneraalesia-dev/zakrivayuschiy-teg-f
