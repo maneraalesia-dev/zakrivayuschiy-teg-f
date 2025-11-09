@@ -138,7 +138,7 @@
 .card-img-label {
   top: 25px;
   right: 25px;
-  text-shadow: 0 0 1px var(--background-color);
+
   position: absolute;
   mix-blend-mode: hard-light;
   font-size: 14px;
